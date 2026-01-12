@@ -1,0 +1,9 @@
+{
+  "version": 2,
+  "rewrites": [
+    {
+      "source": "/bare/(.*)",
+      "destination": "https://uv.student-portal.workers.dev/$1"
+    }
+  ]
+}
